@@ -92,9 +92,6 @@ h1, h2, h3, h4, p {
         margin: 5px auto;
         font-size: 20px;
      }
-}
-    
-@media screen and (max-width: 600px){
     .gift-img {
         width: 330px;
         height: 300px;
