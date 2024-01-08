@@ -3,6 +3,7 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#9376E0, #EFB0C9);
     color: rgb(255, 247, 247);
+    font-size: 32px;
 }
 
 h1, h2, h3, h4, p {
