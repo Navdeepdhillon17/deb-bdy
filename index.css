@@ -3,7 +3,6 @@ body {
     font-family: 'Happy Monkey', cursive;
     background: linear-gradient(#9376E0, #EFB0C9);
     color: rgb(255, 247, 247);
-    font-size: 32px;
 }
 
 h1, h2, h3, h4, p {
@@ -17,7 +16,7 @@ h1, h2, h3, h4, p {
 }
 
 #deb-img {
-    width: 150px;
+    width: 200px;
     border-radius: 50%;
     border: 6px solid #E893CF;
     margin-bottom: 10px;
@@ -56,10 +55,6 @@ h1, h2, h3, h4, p {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
-}
-
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
@@ -93,9 +88,17 @@ h1, h2, h3, h4, p {
 
 @media screen and (max-width: 600px){
     .gift-section {
-       max-width: 600px;
-       margin: 10px;
-       margin-right: 0px;
-       padding: 0px;
+        max-width: 500px;
+        margin: 5px;
+        font-size: 20px;
+     }
+}
+    
+@media screen and (max-width: 600px){
+    .gift-img {
+        width: 330px;
+        height: 300px;
+        margin: 5px auto;
+
     }
 }
