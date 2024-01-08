@@ -1,13 +1,14 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#9376E0, #EFB0C9);
-    color: rgb(255, 247, 247);
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
 }
 
 h1, h2, h3, h4, p {
-    text-shadow: 5px 3px 3px rgb(134, 122, 122);
+    text-shadow: 0 0 1px black;
 }
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -18,12 +19,12 @@ h1, h2, h3, h4, p {
 #deb-img {
     width: 200px;
     border-radius: 50%;
-    border: 6px solid #E893CF;
+    border: 6px solid #ddb5d1;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #E893CF;
+    background: #ddb5d1;
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
@@ -31,7 +32,7 @@ h1, h2, h3, h4, p {
 
 #bday-date {
     margin: 0;
-    background: #E893CF;
+    background: #ddb5d1;
     padding: 5px 10px;
     border-radius: 5px;
 }
@@ -59,7 +60,7 @@ h1, h2, h3, h4, p {
     margin: 20px auto;
     max-width: 400px;
     height: 400px;
-    border: 6px solid white;
+    border: 6px solid #ddb5d1;
     border-radius: 10px;
     background-image: url("gift.jpg");
     background-size: cover;
@@ -86,16 +87,19 @@ h1, h2, h3, h4, p {
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     .gift-section {
         max-width: 500px;
         margin: 5px auto;
-        font-size: 20px;
-     }
+        font-size: 17px;
+    }
+
     .gift-img {
         width: 330px;
         height: 300px;
         margin: 5px auto;
-
     }
+
+    
+
 }
