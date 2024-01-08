@@ -92,7 +92,7 @@ h1, h2, h3, h4, p {
 
 @media screen and (max-width: 600px){
     .gift-section {
-       max-width: 350px;
+       max-width: 600px;
        margin: 10px;
        margin-right: 0px;
        padding: 0px;
